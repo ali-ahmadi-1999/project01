@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Yekan";
+  src: url(./font/Yekan.ttf);
+}
+
+body {
+  font-family: "Yekan";
+}
+
+.margin-a {
+  margin: 0.8rem;
+}
+
+.icon-margin {
+  margin: 0.8rem;
+}
+
+.icon:hover {
+  color: rgb(0, 138, 151);
+}
+
+.image {
+  height: 80vh;
+  background-image: url(image/burger-g93c6b8f8c_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.res {
+  width: 100%;
+  height: 384px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+
+.right-margin {
+  margin-right: 15px;
+}
+
+.left-margin {
+  margin-right: 15px;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  width: 50%;
+}
+
+.posi {
+  display: flex;
+  justify-content: left;
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  background-color: black;
+  padding: 0.1rem 1rem;
+  border-radius: 99999px;
+}
+
+.wrapper .text {
+  width: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.9 ease-in;
+}
+
+.wrapper:hover .text {
+  width: 4rem;
+  visibility: visible;
+  opacity: 1;
+}
+
+.footer-background {
+  color: white;
+  height: 400px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.footer-icon {
+  text-align: left;
+  text-align: center;
+  font-size: 35px;
+}
+
+.f-icon-insta,
+.f-icon-tel,
+.f-icon-what {
+  transition: all 1s;
+}
+
+.f-icon-insta:hover {
+  transform: scale(1.2);
+  color: rgb(255, 0, 191);
+}
+
+.f-icon-tel:hover {
+  transform: scale(1.2);
+  color: rgb(4, 133, 219);
+}
+
+.f-icon-what:hover {
+  transform: scale(1.2);
+  color: rgb(0, 216, 47);
+}
